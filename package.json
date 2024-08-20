@@ -1,0 +1,15 @@
+{
+  "name": "finetune-experiment",
+  "version": "1.0.0",
+  "description": "just a weird coding style to see if a fine tuned model can pick-up",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}
