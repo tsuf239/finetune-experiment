@@ -12,11 +12,13 @@ I want the model to "pay attention" and correct over the following points-
 - helper functions are exported as const (not export function = () => "");
 
 It will be nice if it can catch errors-
-here for example: ```
+here for example:
+
+```
 export const multiply = (...args: number[]) => {
 return args.reduce((sum, arg) => sum \* arg, 0);
 };
 
 ```
+
 the model should tell me that I have a zero as initial value (chatGPT could!)
-```
